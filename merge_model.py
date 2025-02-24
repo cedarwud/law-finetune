@@ -4,7 +4,7 @@ from peft import PeftModel
 import gc
 
 base_model_path = "../LLaMA-Factory/models/DeepSeek-R1-Distill-Qwen-32B"
-adapter_path = "../LLaMA-Factory/saves/DeepSeek-R1-Distill-Qwen-32B-QLoRA-4bit-3280-fixed"
+adapter_path = "../LLaMA-Factory/saves/DeepSeek-R1-Distill-Qwen-32B-QLoRA-4bit-50"
 merged_model_path = "../LLaMA-Factory/models/DeepSeek-R1-Distill-Qwen-32B-merged"
 
 # 加載基礎模型到 CPU
