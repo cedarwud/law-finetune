@@ -4,7 +4,7 @@ model_name_or_path: models/DeepSeek-R1-Distill-Qwen-32B
 preprocessing_num_workers: 16
 finetuning_type: lora
 quantization_bit: 4
-template: deepseek
+template: qwen2
 flash_attn: auto
 enable_liger_kernel: True
 dataset_dir: ./law-finetune
